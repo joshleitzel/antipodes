@@ -7,7 +7,7 @@ Both latitude/longitude coordinates and place names are accepted as input. If a
 place name is used, it is geocoded with the
 [Geocoder](https://github.com/alexreisner/geocoder) gem.
 
-```
+```ruby
 Antipodes.for(47.6062095, -122.3320708) #=> [-47.6062095, 57.6679292]
 
 Antipodes.for(-47.6062095, 57.6679292) #=> [47.6062095, -122.3320708]
